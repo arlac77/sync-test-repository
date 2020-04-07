@@ -1,0 +1,59 @@
+{
+  "name": "sync-test-repository",
+  "version": "0.0.0-semantic-release",
+  "description": "test repository for npm-template-sync",
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "cover": "nyc --temp-directory build/nyc npm test",
+    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
+    "posttest": "markdown-doctest",
+    "precover": "rollup -c",
+    "prepare": "rollup -c",
+    "pretest": "rollup -c",
+    "semantic-release": "semantic-release",
+    "test": "mocha tests/*-test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jsdoc-to-markdown": "^5.0.0",
+    "markdown-doctest": "^0.9.1",
+    "mocha": "^6.1.2",
+    "nyc": "^14.1.2",
+    "rollup": "^1.15.6",
+    "semantic-release": "^15.13.1"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/sync-test-repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/sync-test-repository/issues"
+  },
+  "homepage": "https://github.com/arlac77/sync-test-repository#readme",
+  "nyc": {
+    "include": [
+      "dist/**/*.js"
+    ],
+    "reporter": [
+      "lcov"
+    ],
+    "report-dir": "./coverage"
+  },
+  "xo": {
+    "space": true
+  },
+  "template": {
+    "inheritFrom": "arlac77/template-cli-app"
+  }
+}
