@@ -4,6 +4,7 @@ tests
 doc
 *.log
 *.tmp
+rollup.config.*
 .test
 .tmp
 .gitignore
@@ -12,5 +13,5 @@ doc
 .vscode
 .nyc_output
 .markdown-doctest-setup.js
-rollup.config.js
 SUMMARY.md
+
