@@ -9,5 +9,4 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/sync-test-repository/badge.svg)](https://snyk.io/test/github/arlac77/sync-test-repository)
 [![codecov.io](http://codecov.io/github/arlac77/sync-test-repository/coverage.svg?branch=master)](http://codecov.io/github/arlac77/sync-test-repository?branch=master)
 [![Coverage Status](https://coveralls.io/repos/arlac77/sync-test-repository/badge.svg)](https://coveralls.io/r/arlac77/sync-test-repository)
-file content #1
-
+file content #2
