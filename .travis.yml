@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - 10.16.0
-before_install:
-  - npm i -g npm@latest
 jobs:
   include:
     - stage: test
@@ -45,4 +43,6 @@ notifications:
     - markus.felten@gmx.de
 after_success:
   - npm run semantic-release
+before_install:
+  - npm i -g npm@latest
 cache: npm
