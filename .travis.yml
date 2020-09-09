@@ -6,6 +6,7 @@ jobs:
     - stage: test
       script:
         - npm run cover
+        - npx codecov
         - cat ./build/coverage/lcov.info | npx coveralls
       node_js:
         - 14.9.0
@@ -35,7 +36,6 @@ script:
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
     - /^mkpr/.*$/
     - /^npm-template-sync/.*$/
 notifications:
