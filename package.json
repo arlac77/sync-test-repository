@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "ava": "^3.13.0",
-    "c8": "^7.3.1",
+    "c8": "^7.3.2",
     "chai": "^4.2.0",
     "documentation": "^13.0.1",
     "jsdoc-to-markdown": "^5.0.0",
