@@ -22,7 +22,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "ava": "^3.13.0",
+    "ava": "^3.14.0",
     "c8": "^7.3.5",
     "chai": "^4.2.0",
     "documentation": "^13.0.1",
