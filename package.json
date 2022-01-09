@@ -1,7 +1,7 @@
 {
   "name": "sync-test-repository",
   "version": "0.0.0-semantic-release",
-  "description": "test template-tools",
+  "description": "test repository for npm-template-sync",
   "contributors": [
     {
       "name": "Markus Felten",
