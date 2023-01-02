@@ -1,10 +1,10 @@
 node_modules
 build
-/node_modules/**
 *.log
 *.dump
 .DS_Store
 *.node
 .test
+/node_modules/**
 .tmp
 bin
