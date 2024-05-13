@@ -32,10 +32,10 @@
     "mocha": "^6.1.2",
     "nyc": "^14.1.2",
     "rollup": "^1.15.6",
-    "semantic-release": "^23.0.8"
+    "semantic-release": "^23.1.1"
   },
   "engines": {
-    "node": ">=20.13.0"
+    "node": ">=20.13.1"
   },
   "repository": {
     "type": "git",
