@@ -14,15 +14,18 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4.1.7
-      - uses: actions/setup-node@v4.0.3
+      - name: checkout
+        uses: actions/checkout@v4.1.7
+      - name: prepare node
+        uses: actions/setup-node@v4.0.3
         with:
           node-version: 22.6.0
           cache: npm
           cache-dependency-path: package-lock.json
-      - name: checkout
+      - name: install
         run: npm ci
-      - run: npx semantic-release
+      - name: release
+        run: npx semantic-release
         env:
           CI: "true"
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
