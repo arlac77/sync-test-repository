@@ -33,7 +33,7 @@
     "mocha": "^6.1.2",
     "nyc": "^14.1.2",
     "rollup": "^1.15.6",
-    "semantic-release": "^24.2.8"
+    "semantic-release": "^24.2.9"
   },
   "engines": {
     "node": ">=22.19.5"
