@@ -1,7 +1,7 @@
 {
   "name": "sync-test-repository",
   "version": "0.0.0-semantic-release",
-  "packageManager": "npm@11.6.0+sha512.77f3fb0dbbd881835d7bd1217deabdf7ed77fc4ec4f363df64fc3cb986404abf6c437661041080f5c5d225103508e7c9ea30cb2742b7e942675d05a10af2d7b9",
+  "packageManager": "npm@11.6.4+sha512.1118cab46a05a50aee6bff5b1b4fa1df18afff89d57465620a3518035026955db87c5bdf9d207b07b7487d99f2490d450cb774655ad63ec2cba7bf1d0ad25d45",
   "description": "test repository for npm-template-sync",
   "contributors": [
     {
@@ -33,10 +33,10 @@
     "mocha": "^6.1.2",
     "nyc": "^14.1.2",
     "rollup": "^1.15.6",
-    "semantic-release": "^24.2.9"
+    "semantic-release": "^25.0.2"
   },
   "engines": {
-    "node": ">=22.19.5"
+    "node": ">=24.11.1"
   },
   "repository": {
     "type": "git",
