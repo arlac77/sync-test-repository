@@ -1,7 +1,7 @@
 {
   "name": "sync-test-repository",
   "version": "0.0.0-semantic-release",
-  "packageManager": "npm@11.10.0",
+  "packageManager": "npm@11.13.0",
   "description": "test repository for npm-template-sync",
   "contributors": [
     {
@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "ava": "^7.0.0",
+    "ava": "^8.0.0",
     "c8": "^11.0.0",
     "chai": "^4.2.0",
     "documentation": "^14.0.3",
