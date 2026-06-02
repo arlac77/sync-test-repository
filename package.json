@@ -1,7 +1,7 @@
 {
   "name": "sync-test-repository",
   "version": "0.0.0-semantic-release",
-  "packageManager": "npm@11.13.0",
+  "packageManager": "npm@11.16.0",
   "description": "test repository for npm-template-sync",
   "contributors": [
     {
